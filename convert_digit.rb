@@ -9,6 +9,5 @@ def convert_digit(value)
     when 7; 'seven'
     when 8; 'eight'
     when 9; 'nine'
-    else; ''
   end
 end
