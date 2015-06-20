@@ -13,7 +13,9 @@ def convert_tens(value)
       when 19; 'nineteen'
     end
   else
-    "#{left_hand(value)} #{convert_digit(value%10)}"
+    digit = convert_digit(value%10)
+    digit = " #{digit}" if digit
+    "#{left_hand(value)}#{digit}"
   end
 end
 
