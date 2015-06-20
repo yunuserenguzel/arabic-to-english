@@ -1,5 +1,4 @@
-require './convert_digit'
-def convert_two_steps(value)
+def convert_tens(value)
   if value < 20
     case value
       when 10; 'ten'
