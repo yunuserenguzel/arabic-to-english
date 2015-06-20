@@ -18,6 +18,11 @@ describe 'convert_tens' do
     expect(convert_tens(9) == nil).to be(true)
   end
 
+  it 'should return nil for 132' do
+    puts convert_tens(132)
+    expect(convert_tens(132) == nil).to be(true)
+  end
+
   it 'should use convert digit for least significant digits' do
     allow(self).to receive(:convert_digit).and_return('HELLO')
     expect(convert_tens(32) == 'thirty HELLO').to eq(true)

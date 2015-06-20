@@ -15,7 +15,10 @@ def convert_tens(value)
   else
     digit = convert_digit(value%10)
     digit = " #{digit}" if digit
-    "#{left_hand(value)}#{digit}"
+    left_hand =  left_hand(value)
+    if left_hand
+      "#{left_hand(value)}#{digit}"
+    end
   end
 end
 
