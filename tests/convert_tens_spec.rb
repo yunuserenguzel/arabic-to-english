@@ -19,7 +19,6 @@ describe 'convert_tens' do
   end
 
   it 'should return nil for 132' do
-    puts convert_tens(132)
     expect(convert_tens(132) == nil).to be(true)
   end
 
