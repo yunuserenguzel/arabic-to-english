@@ -4,5 +4,9 @@ require './convert_tens'
 require './convert_digit'
 require './convert_number'
 number = ARGV[0].to_i
-puts "#{convert_number(number)}"
+if number > 0
+  puts "#{convert_number(number)}"
+else
+  puts 'zero'
+end
 
