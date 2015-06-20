@@ -1,5 +1,5 @@
 def convert_digit(value)
-  case value.to_i
+  case value
     when 1; 'one'
     when 2; 'two'
     when 3; 'three'
