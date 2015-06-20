@@ -1,5 +1,4 @@
-require 'rspec'
-require './convert_digit'
+require './tests/rspec_helper'
 
 describe 'convert_digit' do
 
