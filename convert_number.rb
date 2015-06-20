@@ -5,7 +5,7 @@ def convert_number(value)
     convert_tens(value)
   elsif value < 1000
     convert_hundreds(value)
-  elsif value 10000
+  elsif value < 10000
     convert_thousands(value)
   end
 end
